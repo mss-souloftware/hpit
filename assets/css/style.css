@@ -1,0 +1,130 @@
+.topBar {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--grey);
+}
+
+.topBar .socialIcon ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topBar .socialIcon ul a {
+    width: 33px;
+    height: 33px;
+    background: var(--red);
+    margin: 0 5px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    transition: all 0.3s linear;
+}
+
+.topBar .socialIcon ul a:hover {
+    background: var(--blue);
+}
+
+.topBar .topLinks {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.topBar .topLinks ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.topBar .topLinks ul a {
+    color: var(--black);
+    text-decoration: none;
+    margin: 0 10px;
+    transition: all 0.3s linear;
+    font-family: var(--space);
+}
+
+.topBar .topLinks ul a:hover {
+    color: var(--red);
+}
+
+.topBar .topLinks ul select,
+.topBar .topLinks ul select:focus {
+    border: 0;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-family: var(--space);
+}
+
+.topBar .topLinks ul li {
+    display: flex;
+    align-items: center;
+}
+
+.topBar .topLinks ul li img {
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+#menuToggler {
+    margin-right: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin: 0 15px;
+    font-family: var(--space);
+    color: var(--black);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--blue);
+}
+
+#headerSearch input {
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid var(--black);
+    font-family: var(--space);
+}
+
+/* Home Page */
+
+.homeHero {
+    background: url('../img/banner/hero-banner-home.jpg') no-repeat center;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+}
+
+.homeHero h1 {
+    font-size: 120px;
+    text-transform: uppercase;
+    color: var(--white);
+    font-family: var(--oswald);
+    font-weight: 800;
+}
+
+.homeHero p {
+    color: var(--white);
+    font-family: var(--sanspro);
+    font-size: 18px;
+    max-width: 500px;
+}
+
+.homeHero:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(../img/assets/rectangle.png) no-repeat center;
+    background-size: contain;
+    top: 0;
+    left: 0;
+}
+
+/* Home Page */
