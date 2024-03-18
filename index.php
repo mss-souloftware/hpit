@@ -164,7 +164,7 @@
                             <div class="position-relative">
                                 <img src="" alt="">
                                 <div class="textData">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
+                                    <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p> -->
                                 </div>
                             </div>
                         </div>
