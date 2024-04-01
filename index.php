@@ -8,20 +8,23 @@
 
 <body>
     <?php include 'components/header.php'; ?>
-
+ 
     <section class="homeHero">
+    <video autoplay muted loop src="assets/img/assets/ai.mp4" ></video>
         <div class="container">
             <div class="row">
+                
                 <div class="col-md-6 position-relative z-index-10">
                     <h1>Explore Vision</h1>
-                    <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                     <a class="defaultBtn mt-3" href="#">Learn more</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="spotLight secPadding">
+    <section class="spotLight secPadding bg-star-left">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -74,6 +77,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="spotLight secPadding bg-star-right">
+        <div class="container">
+
             <div class="row mt-5">
                 <div class="col-7 text-center mx-auto">
                     <h2 class="sectionHead">The power <br>of <span>partnership</span></h2>
@@ -111,10 +119,11 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
 
 
-    <section class="weAre secPadding">
+    <section class="weAre secPadding bg-star-left">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -123,7 +132,9 @@
                 <div class="col-md-6">
                     <h2 class="sectionHead">We are <span>HPIT</span></h2>
                     <p class="subPera">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing .
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the
+                        printing .
                     </p>
                     <ul>
                         <li>
@@ -135,11 +146,17 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="weAre secPadding">
+        <div class="container">
             <div class="row align-items-center mt-5">
                 <div class="col-md-6">
                     <h2 class="sectionHead">Join <span>Our<br> Team</span></h2>
                     <p class="subPera">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s,
                     </p>
                     <a class="defaultBtn mt-3" href="#">Learn more</a>
                 </div>
@@ -150,7 +167,7 @@
         </div>
     </section>
 
-    <section class="newsInsights secPadding">
+    <section class="newsInsights secPadding bg-star-right">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -164,13 +181,97 @@
                             <div class="position-relative">
                                 <img src="" alt="">
                                 <div class="textData">
-                                    <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p> -->
+                                    <h3>big stories</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="row gaping">
+                        <div class="col-md-6">
+                            <div class="main-news-bg" style="background-image: url('assets/img/assets/news1.png');">
+                                <div class="news-content">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="main-news-bg" style="background-image: url('assets/img/assets/news2.png');">
+                                <div class="news-content">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="main-news-bg" style="background-image: url('assets/img/assets/news3.png');">
+                                <div class="news-content">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="main-news-bg" style="background-image: url('assets/img/assets/news4.png');">
+                                <div class="news-content">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
                 <div class="col-md-4">
+                    <div class="position-relative">
+                        <img src="" alt="">
+                        <div class="textData">
+                            <h3>top stories</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="row gaping custom-top-2">
+                        <div class="col-md-4 p-0">
+                            <img class="height-img" src="assets/img/assets/top1.png" alt="image">
+                        </div>
+                        <div class="col-md-6 p-0 top-card-content">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        </div>
+                    </div>
+
+                    <div class="row gaping custom-top-2">
+                        <div class="col-md-4 p-0">
+                            <img class="height-img" src="assets/img/assets/top2.png" alt="image">
+                        </div>
+                        <div class="col-md-6 p-0 top-card-content">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        </div>
+                    </div>
+
+                    <div class="row gaping custom-top-2">
+                        <div class="col-md-4 p-0">
+                            <img class="height-img" src="assets/img/assets/top3.png" alt="image">
+                        </div>
+                        <div class="col-md-6 p-0 top-card-content">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        </div>
+                    </div>
+
+                    <div class="row gaping custom-top-2">
+                        <div class="col-md-4 p-0">
+                            <img class="height-img" src="assets/img/assets/top4.png" alt="image">
+                        </div>
+                        <div class="col-md-6 p-0 top-card-content">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

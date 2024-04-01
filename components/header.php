@@ -1,7 +1,8 @@
-<header>
-    <div class="container">
-        <div class="topBar">
-            <div class="row align-items-center">
+
+<header class="header">
+<div class="topBar">
+          <div class="container">
+          <div class="row align-items-center">
                 <div class="col-6">
                     <div class="socialIcon">
                         <ul>
@@ -41,24 +42,35 @@
                                 <a href="#">Contact us</a>
                             </li>
                         </ul>
+                        <div id="google_translate_element" style="visibility: hidden;"></div>
+<!-- <ul>
+    <li><a href="javascript:void(0)" onclick="translatePage('en')">English</a></li>
+    <li><a href="javascript:void(0)" onclick="translatePage('es')">Spanish</a></li>
+    <li><a href="javascript:void(0)" onclick="translatePage('ar')">Arabic</a></li>
 
-                        <ul>
+</ul> -->
+                        <ul id="lang-open">
                             <li>
                                 <img src="assets/img/icons/globe.svg" alt="Languages">
-                                <select id="languages">
-                                    <option>EN US</option>
-                                    <option>AR SA</option>
-                                </select>
+                               
+                                    <option>ENGLISH</option>
+                                   
+                             
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+          </div>
         </div>
+
+        <?php include 'translator.php'; ?>
+    <div class="container">
+        
         <nav class="navbar navbar-expand-lg py-4 navbar-light">
             <div class="container-fluid">
                 <div id="menuToggler">
-                    <img src="assets/img/icons/hamburger.svg" alt="Menu">
+                    <img src="assets/img/icons/hamburger-open.svg" alt="Menu">
                 </div>
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/logo.png" alt="HPTI">
@@ -69,19 +81,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Company</a>
+                            <a class="nav-link" href="#" data-menu="company">Company <i class="fa-solid fa-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Capabilities</a>
+                            <a class="nav-link" href="#" data-menu="capabilities">Capabilities <i class="fa-solid fa-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Industries</a>
+                            <a class="nav-link" href="#" data-menu="industries">Industries <i class="fa-solid fa-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Insights</a>
+                            <a class="nav-link" href="#" data-menu="insights">Insights <i class="fa-solid fa-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Career</a>
+                            <a class="nav-link" href="#" data-menu="career">Career <i class="fa-solid fa-chevron-down"></i></a>
                         </li>
                     </ul>
                     <form id="headerSearch" class="d-flex">
@@ -94,4 +106,6 @@
             </div>
         </nav>
     </div>
+    <?php include 'topmenu.php'; ?>
+    <?php include 'magamenu.php'; ?>
 </header>
