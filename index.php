@@ -7,11 +7,62 @@
 </head>
 
 <body>
+
+<nav class="fullpage-navigation" id="fullpage-navigation" aria-label="Sections">
+        <div class="fullpage-navigation__items" bis_skin_checked="1">
+            
+                <div class="fullpage-navigation__item fullpage-navigation__item--active" bis_skin_checked="1">
+                    <button data-section="1" aria-label="Go to section 1">
+                        <span>0</span>1
+                    </button>
+                </div>
+            
+                <div class="fullpage-navigation__item" bis_skin_checked="1">
+                    <button data-section="2" aria-label="Go to section 2">
+                        <span>0</span>2
+                    </button>
+                </div>
+            
+                <div class="fullpage-navigation__item" bis_skin_checked="1">
+                    <button data-section="3" aria-label="Go to section 3">
+                        <span>0</span>3
+                    </button>
+                </div>
+            
+                <div class="fullpage-navigation__item" bis_skin_checked="1">
+                    <button data-section="4" aria-label="Go to section 4">
+                        <span>0</span>4
+                    </button>
+                </div>
+            
+                <div class="fullpage-navigation__item" bis_skin_checked="1">
+                    <button data-section="5" aria-label="Go to section 5">
+                        <span>0</span>5
+                    </button>
+                </div>
+            
+                <div class="fullpage-navigation__item" bis_skin_checked="1">
+                    <button data-section="6" aria-label="Go to section 6">
+                        <span>0</span>6
+                    </button>
+                </div>
+            
+                <div class="fullpage-navigation__item" bis_skin_checked="1">
+                    <button data-section="7" aria-label="Go to section 7">
+                        <span>0</span>7
+                    </button>
+                </div>
+            
+        </div>
+    </nav>
     <?php include 'components/header.php'; ?>
  
     <section class="homeHero">
+    <div class="hero-shape">
     <video autoplay muted loop src="assets/img/assets/ai.mp4" ></video>
+   
         <div class="container">
+           
             <div class="row">
                 
                 <div class="col-md-6 position-relative z-index-10">
@@ -20,11 +71,31 @@
                         Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                     <a class="defaultBtn mt-3" href="#">Learn more</a>
                 </div>
+                <div class="col-md-6">
+               <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/herobannerhome.jpg" alt="" title="" id="wows1_0"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/image_7.png" alt="jquery slider" title="" id="wows1_1"/></a></li>
+		<li><img src="data1/images/image_6.png" alt="" title="" id="wows1_2"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span>1</span></a>
+		<a href="#" title=""><span>2</span></a>
+		<a href="#" title=""><span>3</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html slideshow</a> by WOWSlider.com v9.0</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+                </div>
+            </div>
             </div>
         </div>
     </section>
 
-    <section class="spotLight secPadding bg-star-left">
+    <section id="section2" class="spotLight secPadding bg-star-left">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -79,7 +150,7 @@
             </div>
         </div>
     </section>
-    <section class="spotLight secPadding bg-star-right">
+    <section  id="section3" class="spotLight secPadding bg-star-right">
         <div class="container">
 
             <div class="row mt-5">
@@ -123,11 +194,13 @@
     </section>
 
 
-    <section class="weAre secPadding bg-star-left">
+    <section id="section4" class="weAre secPadding bg-star-left">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img class="w-100" src="assets/img/assets/videoBanner.png" alt="We are HPIT">
+                <video class="hide" id="videoPlayer" autoplay controls loop src="assets/img/assets/ai.mp4"></video>
+    <img class="videoplay img-fluid w-100" src="assets/img/assets/videoBanner.png" alt="We are HPIT">
+
                 </div>
                 <div class="col-md-6">
                     <h2 class="sectionHead">We are <span>HPIT</span></h2>
@@ -149,7 +222,7 @@
         </div>
     </section>
 
-    <section class="weAre secPadding">
+    <section id="section5" class="weAre secPadding">
         <div class="container">
             <div class="row align-items-center mt-5">
                 <div class="col-md-6">
@@ -167,7 +240,7 @@
         </div>
     </section>
 
-    <section class="newsInsights secPadding bg-star-right">
+    <section id="section6" class="newsInsights secPadding bg-star-right">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -277,7 +350,7 @@
         </div>
     </section>
 
-    <section class="ctaSec secPadding">
+    <section id="section7" class="ctaSec secPadding">
         <div class="container">
             <div class="row">
                 <div class="col-md-9 m-auto text-center">

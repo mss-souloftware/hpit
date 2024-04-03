@@ -167,7 +167,7 @@ select#languages {
 .homeHero {
 
     background-size: cover;
-    padding: 150px 0;
+   
     position: relative;
     height: 100vh;
     overflow: hidden;
@@ -180,7 +180,7 @@ select#languages {
     width: 100%;
     display: block;
   background: black;
-    opacity: 0.5;
+    opacity: 0.3;
     left: 0;
     top: 0;
   
@@ -215,16 +215,7 @@ select#languages {
     max-width: 500px;
 }
 
-.homeHero:after {
-    position: absolute;
-    content: "";
-    width: 900px;
-    height: 100%;
-    background: url(../img/assets/rectangle.png) no-repeat center;
-    background-size: contain;
-    top: 0;
-    left: 87px;
-}
+
 
 
 #spotLightSlide .slick-slide {
@@ -283,6 +274,68 @@ select#languages {
     display: none !important;
 }
 
+
+#heroslider .slick-slide {
+    margin-left: -20px;
+}
+
+#heroslider .slick-slide {
+    padding-left: 20px;
+}
+
+#heroslider {
+    margin-top: 40px;
+}
+
+#heroslider .slick-slide {
+    padding: 0 30px;
+    position: relative;
+}
+
+#heroslider .slick-slide img {
+    max-width: 100%;
+
+}
+
+#heroslider .slick-slide .textData {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-family: var(--space);
+    text-align: center;
+    padding: 0 30px;
+}
+
+#heroslider .slick-slide .textData h3,
+#heroslider .slick-slide .textData p {
+    font-weight: 400;
+}
+
+#heroslider {
+    padding-bottom: 55px;
+}
+
+#heroslider .slick-dots li {
+    background: #A6A6A6;
+    width: 30px !important;
+    height: 4px;
+}
+
+#heroslider .slick-dots li.slick-active {
+    background: var(--red);
+    width: 40px !important;
+}
+
+#heroslider .slick-dots li button:after,
+#heroslider .slick-dots li button:before {
+    display: none !important;
+}
+div#heroslider .position-relative {
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100% !important;
+}
 .peraText {
     font-size: 22px;
     max-width: 500px;
@@ -561,7 +614,7 @@ color: black;
 
 
 .header{
-    position: fixed;
+   
     width: 100%;
     background-color: #ECECEC;
     top: 0;
@@ -716,3 +769,116 @@ ul.navbar-nav li.active a:after {
 ul.navbar-nav li i {
     margin-left: 10px;
 }
+
+.fullpage-navigation {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    left: 50%;
+    pointer-events: none;
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 100%;
+    z-index: 9999;
+}
+
+.fullpage-navigation__items {
+    backdrop-filter: blur(.55556rem);
+    background-color: rgb(0 154 214);
+    pointer-events: all;
+    width: 2.61111rem;
+}
+
+.fullpage-navigation__item {
+    background-color: transparent;
+ 
+    padding: .55556rem 0;
+    position: relative;
+    text-align: center;
+    -webkit-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+}
+
+.fullpage-navigation__item--active {
+    background-color: #e40000;
+}
+
+.fullpage-navigation__item a, .fullpage-navigation__item button {
+    color: #fff;
+    font-family: Source Sans\ 3, Calibri, Geneva, sans-serif;
+    font-size: 1.33333rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    line-height: 1;
+    padding: 0;
+}
+
+
+section#section4 video {
+    object-fit: initial;
+    width: 100%;
+    height: 554px;
+    border-radius: 25px;
+}
+
+.videoplay{
+    cursor: pointer;
+}
+
+div#spotLightSlide .position-relative:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    display: block;
+   opacity:0;
+   transition:0.2s all;
+    position: absolute;
+    background: #000000;
+    cursor:pointer;
+    
+ }
+ 
+ div#spotLightSlide .position-relative:hover:before {
+   opacity:1;
+    
+ }
+ 
+ div#spotLightSlide .position-relative:hover p{
+    color:#ffffff;
+    font-weight:600;
+ }
+ 
+ 
+ div#spotLightSlide .position-relative .textData{
+    transition:all 0.3s linear;   
+ }
+ 
+ div#spotLightSlide .position-relative:hover .textData{
+   transform: translate(0, -40px);
+ }
+ 
+ div#spotLightSlide .position-relative:hover h3{
+    color:white;
+    font-weight:600;
+ 
+ }
+ 
+ div#spotLightSlide .position-relative{
+ transition:all 0.3s linear;   
+ }
+ 
+ div#spotLightSlide .position-relative:hover{
+    transform:scale(1.1)
+ }
+ 
+ 

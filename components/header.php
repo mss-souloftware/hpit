@@ -1,5 +1,5 @@
 
-<header class="header">
+<header id="section1" class="header">
 <div class="topBar">
           <div class="container">
           <div class="row align-items-center">
