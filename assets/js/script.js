@@ -139,3 +139,47 @@ document.addEventListener("DOMContentLoaded", function() {
         video.classList.add('hide');
     });
 });
+
+
+(function($) {
+    $(document.body).on('click', 'ul#megamenu1 li a', function() {
+      // Get the inner text content of the clicked anchor element
+      $('ul#megamenu1 li a').removeClass('active'); 
+      $(this).addClass('active'); 
+            const anchorText = $(this).text().trim();
+          
+            // Check if the anchorText matches a condition
+            if (anchorText === 'Business') {
+                $('#megamenu3').removeClass('hide');   
+                $('#megamenu2').addClass('hide');  
+                $('#megamenu4').addClass('hide');
+                $('#megamenu5').addClass('hide');
+             
+            }
+
+          else if (anchorText === 'Engineering'){
+            $('#megamenu3').addClass('hide');   
+                $('#megamenu2').addClass('hide');  
+                $('#megamenu4').removeClass('hide');
+                $('#megamenu5').addClass('hide');
+            }
+
+
+            else if (anchorText === 'Mission'){
+                $('#megamenu3').addClass('hide');   
+                    $('#megamenu2').addClass('hide');  
+                    $('#megamenu4').addClass('hide');
+                    $('#megamenu5').removeClass('hide');
+                }
+
+                else if (anchorText === 'Technology'){
+                    $('#megamenu3').addClass('hide');   
+                        $('#megamenu2').removeClass('hide');  
+                        $('#megamenu4').addClass('hide');
+                        $('#megamenu5').addClass('hide');
+                    }
+
+           
+    })
+}
+)(jQuery);

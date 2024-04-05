@@ -6,7 +6,7 @@
     <title>HPIT - Home</title>
 </head>
 
-<body>
+<body class="home">
 
 <nav class="fullpage-navigation" id="fullpage-navigation" aria-label="Sections">
         <div class="fullpage-navigation__items" bis_skin_checked="1">
