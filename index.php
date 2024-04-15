@@ -65,32 +65,26 @@
            
             <div class="row">
                 
-                <div class="col-md-6 position-relative z-index-10">
-                    <h1>Explore Vision</h1>
-                    <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                        Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                    <a class="defaultBtn mt-3" href="#">Learn more</a>
-                </div>
-                <div class="col-md-6">
-               <!-- Start WOWSlider.com BODY section -->
+                <div class="col-md-9">
+                    <!-- Start WOWSlider.com BODY section -->
 <div id="wowslider-container1">
 <div class="ws_images"><ul>
-		<li><img src="data1/images/herobannerhome.jpg" alt="" title="" id="wows1_0"/></li>
-		<li><a href="http://wowslider.net"><img src="data1/images/image_7.png" alt="jquery slider" title="" id="wows1_1"/></a></li>
-		<li><img src="data1/images/image_6.png" alt="" title="" id="wows1_2"/></li>
+		<li><img src="data1/images/herobannerhome.jpg" alt="hero-banner-home" title="EXPLORE VISION" id="wows1_0"/>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+		<li><a href="http://wowslider.net"><img src="data1/images/image_9.png" alt="jquery carousel slider" title="EXPLORE VISION" id="wows1_1"/></a>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+		<li><img src="data1/images/image_7.png" alt="image 7" title="EXPLORE VISION" id="wows1_2"/>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
 	</ul></div>
 	<div class="ws_bullets"><div>
-		<a href="#" title=""><span>1</span></a>
-		<a href="#" title=""><span>2</span></a>
-		<a href="#" title=""><span>3</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html slideshow</a> by WOWSlider.com v9.0</div>
+		<a href="#" title="hero-banner-home"><span>1</span></a>
+		<a href="#" title="image 9"><span>2</span></a>
+		<a href="#" title="image 7"><span>3</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">slider</a> by WOWSlider.com v9.0</div>
 <div class="ws_shadow"></div>
 </div>	
 <script type="text/javascript" src="engine1/wowslider.js"></script>
 <script type="text/javascript" src="engine1/script.js"></script>
 <!-- End WOWSlider.com BODY section -->
                 </div>
-            </div>
+             
             </div>
         </div>
     </section>

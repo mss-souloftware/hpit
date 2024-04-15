@@ -183,3 +183,45 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 }
 )(jQuery);
+
+
+// sidebar open close js code
+let navLinks = document.querySelector(".nav-links");
+let menuOpenBtn = document.querySelector(".navbar .bx-menus");
+let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+menuOpenBtn.onclick = function() {
+navLinks.style.left = "0";
+}
+menuCloseBtn.onclick = function() {
+navLinks.style.left = "-100%";
+document.querySelector("div#menuToggler img").src = "assets/img/icons/hamburger-open.svg";
+}
+
+
+let htmlcssArrows = document.querySelectorAll(".htmlcss-arrow");
+
+htmlcssArrows.forEach(function(htmlcssArrow) {
+    htmlcssArrow.onclick = function() {
+        this.parentNode.classList.toggle("show1");
+        this.classList.toggle("show1-rotate-icon");
+    };
+});
+
+// Get all elements with the class "more-arrow"
+let moreArrows = document.querySelectorAll(".more-arrow");
+
+// Loop through each "more-arrow" element
+moreArrows.forEach(function(moreArrow) {
+    // Attach click event listener
+    moreArrow.onclick = function() {
+        // Toggle class "show2" on the parent of the parent of the clicked element
+        this.classList.toggle("rotate-icon");
+        this.parentNode.parentNode.classList.toggle("show2");
+    };
+});
+
+let jsArrow = document.querySelector(".js-arrow");
+jsArrow.onclick = function() {
+ navLinks.classList.toggle("show3");
+
+}
